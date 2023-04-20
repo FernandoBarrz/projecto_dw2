@@ -342,7 +342,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f9f
 /* Pag. Blog */
 
 .rec-cont {
-    max-width: 1000px;
+    max-width: 80%;
     margin: 0 auto;
     
     
@@ -354,43 +354,95 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f9f
     display: flex;
 }
 
+.rec-img-c-1 img {
+    max-width: 50%;
+}
+
+.rec-img-c-1 h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.rec-img-c-1 p {
+    padding: 5px 12px;
+    text-align: justify;
+}
+
+.rec-img-c-1 ul li {
+    list-style: none;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
 .rec-img-c-2 {
     background-color: #0099CC;
     display: flex;
     flex-direction: row-reverse;
 }
 
-.rec-cont p {
+.rec-img-c-2 img {
+    max-width: 50%;
+}
+
+.rec-img-c-2 h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.rec-img-c-2 ul li {
+    list-style: none;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    padding-right: 10px;
     text-align: justify;
-    padding: 10px;
 }
 
 /* Pag. Blog */
 
 /* Pag. Contacto */
 
+.contact-c {
+    display: flex;
+    margin: 40px auto;
+    max-width: 880px;
+    height: 380px;
+}
+
+.contact-c div {
+    padding-bottom: 10px;
+}
+
 .promo {
     display: block;
-    margin: 0 auto;
     width: 480px;
-    height: 280px;
+    height: 100%;
 }
 
 .formulario {
-    background-color: rgb(43, 177, 255);
+    background-color: rgb(77, 181, 255);
     width: 500px;
-    margin: 20px auto;
+    
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items:flex-start;
     padding: 24px;
     
    
 }
+
+
+.formulario-btn {
+    align-self: center;
+}
 .formulario-btn input{
     padding: 10px;
     margin: 20px;
-    background: transparent;
+    background-color: #00536e;
+    color: white;
 
 }
 
@@ -401,4 +453,11 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f9f
 }
 
 
-/* Pag. Contacto */
+
+
+/* Pag. Nosotros video*/
+.video {
+    display: block;
+    margin: 10px auto;
+}
+
